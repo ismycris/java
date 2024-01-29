@@ -13,6 +13,12 @@ public class curso02 {
             f v = f
             f f = f
          */
+          //tabela verdade OR ||
+        /*  v v = v
+            v f = v
+            f v = v
+            f f = f
+         */
 
         if (nota >= media && faltas<= maxFaltas) {
             System.out.println("aprovado");
