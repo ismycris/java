@@ -3,32 +3,29 @@ public class curso02 {
         
         //==  >  <  >=  <=  !=  !(true/false)
 
-        int nota = 70 ;
-        int faltas = 10;
-        int maxFaltas = 5;
-        int media = 60;
-        //tabela verdade AND
-        /*  v v = v
-            v f = f
-            f v = f
-            f f = f
-         */
-          //tabela verdade OR ||
-        /*  v v = v
-            v f = v
-            f v = v
-            f f = f
-         */
+    int pos = 5;
 
-        if (nota >= media && faltas<= maxFaltas) {
-            System.out.println("aprovado");
-        }else if (nota >= 40) {
-            System.out.println("recuperacao");
+        switch ( pos) {
+            case 1:
+                System.out.println("primeiro lugar");
+                break;
+            case 2:
+                System.out.println("segundo lugar");
+                break;
+            case 3:
+                System.out.println("terceiro lugar");
+                break;
+
+            case 4 :case 5 :case 6 :
+            System.out.println(" premio de partipacao");
+            break;
+        
+            default:
+            System.out.println("nao ganhou premio");
+            break;
         }
-        else{
-            System.out.println("reprovado");
-        }
-        System.out.println("fim do programa");
+
+    
 
     }
 }
