@@ -1,7 +1,7 @@
-public class cursojava {
+public class curso01 {
     public static void main (String[] args){
 
-        int n1=0;
+        int n1=10;
         int n2= 20;
         int n3=30;
         int res=n1+n2+n3;
